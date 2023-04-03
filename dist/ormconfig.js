@@ -17,6 +17,7 @@ exports.default = {
     synchronize: false,
     logging: false,
     ssl: {
+        require: true,
         rejectUnauthorized: false,
     },
     entities: ['src/resources/**/**.entity{.ts,.js}'],
